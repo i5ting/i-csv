@@ -1,0 +1,25 @@
+{
+  "name": "i-csv",
+  "version": "1.0.0",
+  "description": "export && import csv",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm publish .",
+    "test": "node test.js",
+    "dep": "npm install --save export-csv &&npm install --save import-csv"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i5ting/i-csv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i5ting/i-csv/issues"
+  },
+  "homepage": "https://github.com/i5ting/i-csv#readme",
+  "dependencies": {
+    "export-csv": "^1.0.1",
+    "import-csv": "^1.0.3"
+  }
+}
