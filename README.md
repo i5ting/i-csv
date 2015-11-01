@@ -97,7 +97,7 @@ i_csv('test.csv', 'out5.csv', function (item) {
 	}
 
 	return item;
-},'utf-8', true,function(){
+},'utf-8', true, function () {
 	console.log('..........[I AM FINISH]...........')
 });
 
